@@ -3,34 +3,116 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MR. Cole - Konsultan Honda</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page Honda - MR. Cole</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #333;
+        }
+        header {
+            background-color: #c60000;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        .profile {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .profile img {
+            width: 160px;
+            border-radius: 50%;
+            border: 4px solid #c60000;
+        }
+        section {
+            padding: 1.5rem;
+            max-width: 960px;
+            margin: auto;
+        }
+        h2 {
+            color: #c60000;
+        }
+        .promo, .form, .gallery, .cta {
+            margin-top: 2rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .cta a {
+            display: inline-block;
+            margin: 1rem 0.5rem;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            color: white;
+        }
+        .cta .form-btn {
+            background-color: #1e90ff;
+        }
+        .cta .wa-btn {
+            background-color: #25D366;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>MR. Cole</h1>
-        <h2>Konsultan Honda</h2>
-        <p>Dealer Cendana Harum Demak</p>
-    </header>
 
-    <section class="promo">
-        <h3>Promo Bulan Ini</h3>
-        <p><strong>Diskon 300rb</strong> untuk 10 pembeli pertama!</p>
-        <p>Paket service gratis hingga <strong>4x</strong> untuk tipe Beat Series, Genio Series, dan Scoopy Series.</p>
-    </section>
+<header>
+    <h1>MR. Cole</h1>
+    <p>Konsultan Honda - Dealer Cendana Harum Demak</p>
+</header>
 
-    <section class="gallery">
-        <h3>Galeri Motor</h3>
-        <div class="gallery-container">
-            <img src="images/beat.jpg" alt="Beat Series">
-            <img src="images/genio.jpg" alt="Genio Series">
-            <img src="images/scoopy.jpg" alt="Scoopy Series">
-        </div>
-    </section>
+<div class="profile">
+    <img src="images/FOTO SAYA.jpg" alt="Foto MR. Cole" />
+    <p>Siap membantu Anda mendapatkan motor Honda impian dengan pelayanan terbaik!</p>
+</div>
 
-    <section class="booking">
-        <a class="btn-booking" href="https://docs.google.com/forms/d/e/1FAIpQLScLROS_OvuCPpNDw9p68unwYhPBBmWgcH79Q7bTSoFmlNilbA/viewform" target="_blank">Booking Motor Sekarang</a>
-        <a class="btn-wa" href="https://wa.me/6282296065551" target="_blank">Hubungi via WhatsApp</a>
-    </section>
+<section class="promo">
+    <h2>🎉 Promo Bulan Ini</h2>
+    <ul>
+        <li>Diskon Rp300.000 untuk 10 pembeli pertama</li>
+        <li>Gratis servis hingga 4x untuk Beat, Genio, dan Scoopy Series</li>
+    </ul>
+</section>
+
+<section class="gallery">
+    <h2>Galeri Motor Honda</h2>
+    <img src="motor/Beat Cbs Black Red.jpg" alt="Beat CBS Black Red">
+    <img src="motor/Genio Cbs Silver.jpg" alt="Genio CBS Silver">
+    <img src="motor/Scoopy Fashion Brown.jpg" alt="Scoopy Fashion Brown">
+    <img src="motor/PCX160 Abs Red.jpg" alt="PCX160 ABS Red">
+    <img src="motor/Vario 160 Abs Matte White.jpg" alt="Vario 160 ABS Matte White">
+</section>
+
+<section class="cta">
+    <a class="form-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScLROS_OvuCPpNDw9p68unwYhPBBmWgcH79Q7bTSoFmlNilbA/viewform" target="_blank">
+        Booking Motor Sekarang
+    </a>
+    <a class="wa-btn" href="https://wa.me/6282296065551" target="_blank">
+        Hubungi via WhatsApp
+    </a>
+</section>
+
+<footer>
+    &copy; 2025 MR. Cole - Dealer Honda Cendana Harum Demak
+</footer>
+
 </body>
 </html>
