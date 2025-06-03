@@ -3,202 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MR. COLE - Honda Cendana Harum Demak</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <title>Landing Page Honda - MR. Cole</title>
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
-      background: linear-gradient(to bottom right, #f6f7ff, #dbeafe);
-    }
-    .header {
-      background: linear-gradient(to right, #7f00ff, #e100ff);
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-      border-bottom-left-radius: 40px;
-      border-bottom-right-radius: 40px;
-    }
-    .logo {
-      width: 80px;
-      height: auto;
-    }
-    .photo {
-      width: 120px;
-      height: 120px;
-      border-radius: 100px;
-      border: 4px solid white;
-      margin-top: 15px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 30px auto;
-      background: white;
-      border-radius: 20px;
-      padding: 30px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    }
-    h2 {
-      color: #c00;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    ul li::marker {
-      content: '✅ ';
-    }
-    .button {
-      display: block;
-      margin: 10px 0;
-      padding: 12px;
-      text-align: center;
-      background: #c00;
-      color: white;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .button.whatsapp {
-      background: #25D366;
-    }
-    .button.maps {
-      background: #5f27cd;
-      width: fit-content;
-      margin: 10px auto;
-    }
-    .product-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 20px;
-      margin-top: 20px;
-    }
-    .product-card {
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      text-align: center;
-      padding: 10px;
+      padding: 0;
       background: #f9f9f9;
+      color: #333;
     }
-    .product-card img {
-      width: 100%;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 8px;
+    header {
+      background: #d50000;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
-    .testimonial {
-      background: #f1f5f9;
-      border-left: 5px solid #c00;
-      padding: 12px;
-      border-radius: 10px;
-      margin-bottom: 10px;
+    header img {
+      height: 60px;
     }
-    .stars {
-      color: gold;
+    .section {
+      padding: 20px;
+      text-align: center;
     }
-    iframe {
-      width: 100%;
-      height: 220px;
-      border-radius: 10px;
-      margin-top: 10px;
+    .motor-img {
+      max-width: 90%;
+      height: auto;
+      margin: 15px 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    video {
+      width: 90%;
+      max-width: 600px;
+      margin: 20px auto;
+      display: block;
     }
     form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+      margin: 20px auto;
+      max-width: 400px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     input, textarea {
+      width: 100%;
       padding: 10px;
-      border-radius: 6px;
+      margin: 10px 0;
+      border-radius: 5px;
       border: 1px solid #ccc;
+    }
+    button {
+      background: #d50000;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .whatsapp {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .whatsapp a {
+      background: #25d366;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
 
-  <div class="header">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda-logo.png" alt="Logo Honda" class="logo">
-    <img src="https://via.placeholder.com/120x120.png?text=Foto+MR.+Cole" alt="Foto MR. Cole" class="photo">
-    <h1>MR. COLE</h1>
-    <p>Konsultan Marketing Honda - Dealer Cendana Harum Demak</p>
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Honda_logo.svg" alt="Logo Honda">
+    <h1>Selamat Datang di Dealer Honda - MR. Cole</h1>
+    <p>Dealer Cendana Harum Demak</p>
+  </header>
+
+  <div class="section">
+    <h2>Promo Motor Honda Terbaru</h2>
+    
+    <img class="motor-img" src="/mnt/data/Beat street brown.jpg" alt="Beat Street Brown">
+    <img class="motor-img" src="/mnt/data/PCX160 Abs Red.jpg" alt="PCX160 Red ABS">
+    <img class="motor-img" src="/mnt/data/Scoopy Prestige White.jpg" alt="Scoopy White">
+    <img class="motor-img" src="/mnt/data/Stylo Abs white.jpg" alt="Stylo White">
+    <img class="motor-img" src="/mnt/data/Vario 125 iss Matte Red.jpg" alt="Vario 125 Red">
   </div>
 
-  <div class="container">
-    <p style="text-align:center; font-size: 1.1em;">
-      Temukan motor Honda impian Anda bersama kami! Proses cepat, DP ringan, dan banyak bonus menarik siap menanti Anda.
-    </p>
+  <div class="section">
+    <h2>Video Promosi</h2>
+    <video controls>
+      <source src="/mnt/data/video pcx.mp4" type="video/mp4">
+      Browser Anda tidak mendukung video.
+    </video>
+  </div>
 
-    <h2>Promo Spesial Bulan Ini!</h2>
-    <ul>
-      <li>DP Ringan</li>
-      <li>Angsuran Terjangkau</li>
-      <li>Proses Cepat & Mudah</li>
-      <li>Bonus Menarik Setiap Pembelian</li>
-    </ul>
-
-    <h2>Produk Honda Unggulan</h2>
-    <div class="product-grid">
-      <div class="product-card">
-        <img src="https://www.astra-honda.com/assets/motorcycles/pcx160/gallery/gallery1.png" alt="PCX 160">
-        <p>Honda PCX 160</p>
-      </div>
-      <div class="product-card">
-        <img src="https://www.astra-honda.com/assets/motorcycles/beat/gallery/gallery1.png" alt="Beat">
-        <p>Honda Beat</p>
-      </div>
-      <div class="product-card">
-        <img src="https://www.astra-honda.com/assets/motorcycles/scoopy/gallery/gallery1.png" alt="Scoopy">
-        <p>Honda Scoopy</p>
-      </div>
-      <div class="product-card">
-        <img src="https://www.astra-honda.com/assets/motorcycles/vario125/gallery/gallery1.png" alt="Vario 125">
-        <p>Honda Vario 125</p>
-      </div>
-      <div class="product-card">
-        <img src="https://www.astra-honda.com/assets/motorcycles/stylo160/gallery/gallery1.png" alt="Stylo 160">
-        <p>Honda Stylo 160</p>
-      </div>
-    </div>
-
-    <h2>Kenapa Pilih Saya?</h2>
-    <ul>
-      <li>💼 Sales resmi & berpengalaman</li>
-      <li>🏍️ Unit ready & banyak pilihan warna</li>
-      <li>📝 Proses dibantu dari awal sampai selesai</li>
-      <li>📍 Dealer: Cendana Harum Demak</li>
-    </ul>
-
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLScLROS_OvuCPpNDw9p68unwYhPBBmWgcH79Q7bTSoFmlNilbA/viewform" class="button">📝 Booking Motor Sekarang</a>
-    <a href="https://wa.me/6282296065551" class="button whatsapp">💬 WhatsApp MR. Cole</a>
-
-    <h2>Lokasi Dealer</h2>
-    <p style="text-align:center;">Dealer Cendana Harum Demak</p>
-    <a href="https://www.google.com/maps?q=dealer+cendana+harum+demak" class="button maps">📍 Lihat di Google Maps</a>
-
-    <h2>Didukung oleh Finance Terpercaya</h2>
-    <div style="text-align:center; font-weight:bold;">
-      FIF • Adira • OTO • MUF • Mega • MCF • IMFI
-    </div>
-
-    <h2>Testimoni Konsumen</h2>
-    <div class="testimonial">
-      “Pelayanan sangat ramah dan unit langsung ready.” <br><strong>- Budi, Demak <span class="stars">★★★★★</span></strong>
-    </div>
-    <div class="testimonial">
-      “Dibantu dari awal sampai motor dikirim ke rumah!” <br><strong>- Rina, Sayung <span class="stars">★★★★★</span></strong>
-    </div>
-
-    <h2>Formulir Kontak</h2>
-    <form action="mailto:emailanda@example.com" method="post" enctype="text/plain">
+  <div class="section">
+    <h2>Formulir Kontak Langsung</h2>
+    <form action="https://formspree.io/f/moqgdnzn" method="POST">
       <input type="text" name="nama" placeholder="Nama Anda" required>
       <input type="email" name="email" placeholder="Email Anda" required>
-      <textarea name="pesan" placeholder="Pesan Anda" rows="4" required></textarea>
-      <button type="submit" class="button">Kirim Pesan</button>
+      <textarea name="pesan" placeholder="Pesan atau pertanyaan..." rows="4" required></textarea>
+      <button type="submit">Kirim Pesan</button>
     </form>
+  </div>
 
-    <h2>Video Promosi Honda</h2>
-    <iframe src="https://www.youtube.com/embed/lqz6xWZ9HEs" title="Video Promosi Honda" allowfullscreen></iframe>
-
-    <p style="text-align:center; margin-top:30px;">&copy; 2025 MR. Cole - Dealer Cendana Harum Demak</p>
+  <div class="whatsapp">
+    <a href="https://wa.me/6282296065551" target="_blank">Hubungi via WhatsApp</a>
   </div>
 
 </body>
