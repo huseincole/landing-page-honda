@@ -1,103 +1,106 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MR. Cole - Sales Honda Demak</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MR. COLE - Marketing Honda Demak</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background: #f4f4f4;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #d32f2f;
-      color: white;
-      text-align: center;
-      padding: 2rem 1rem;
     }
     .container {
-      padding: 1.5rem;
-      max-width: 900px;
+      max-width: 600px;
       margin: auto;
-      background-color: white;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .profile-img {
-      width: 150px;
-      border-radius: 50%;
-      display: block;
-      margin: 1rem auto;
+    h1, h2 {
+      text-align: center;
+      color: #c00;
     }
-    h2 {
-      color: #d32f2f;
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✅ ";
+    }
+    .section {
+      margin-bottom: 20px;
     }
     .button {
       display: block;
+      width: 100%;
       text-align: center;
-      background-color: #388e3c;
-      color: white;
-      padding: 1rem;
-      margin: 1rem 0;
-      text-decoration: none;
+      background: #c00;
+      color: #fff;
+      padding: 12px;
       border-radius: 8px;
+      text-decoration: none;
+      margin: 10px 0;
       font-weight: bold;
     }
-    .whatsapp {
-      background-color: #25d366;
+    .button.whatsapp {
+      background: #25D366;
     }
-    .products img {
-      width: 100%;
-      max-width: 300px;
-      margin: 1rem;
+    .button:hover {
+      opacity: 0.9;
     }
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+    .footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>MR. COLE</h1>
-    <p>Sales Resmi Honda - Dealer Cendana Harum Demak</p>
-  </header>
-
   <div class="container">
-    <img src="profile.jpg" alt="Foto MR. Cole" class="profile-img">
+    <h1>MR. COLE</h1>
+    <h2>Konsultan Marketing Honda</h2>
+    <p style="text-align: center;">Dealer Cendana Harum Demak</p>
 
-    <h2>Promo Spesial Bulan Ini!</h2>
-    <ul>
-      <li>✅ DP Ringan</li>
-      <li>✅ Angsuran Terjangkau</li>
-      <li>✅ Proses Cepat & Mudah</li>
-      <li>✅ Bonus Menarik Setiap Pembelian</li>
-    </ul>
-
-    <h2>Produk Unggulan</h2>
-    <div class="products">
-      <img src="honda-beat.jpg" alt="Honda Beat">
-      <img src="honda-vario160.jpg" alt="Honda Vario 160">
-      <img src="honda-pcx160.jpg" alt="Honda PCX 160">
-      <img src="honda-scoopy.jpg" alt="Honda Scoopy">
+    <div class="section">
+      <h3>Promo Spesial Bulan Ini!</h3>
+      <ul>
+        <li>DP Ringan</li>
+        <li>Angsuran Terjangkau</li>
+        <li>Proses Cepat & Mudah</li>
+        <li>Bonus Menarik Setiap Pembelian</li>
+      </ul>
     </div>
 
-    <h2>Kenapa Pilih Saya?</h2>
-    <ul>
-      <li>💼 Sales resmi & berpengalaman</li>
-      <li>🏍️ Unit ready & banyak pilihan warna</li>
-      <li>📝 Proses dibantu dari awal sampai selesai</li>
-      <li>📍 Dealer: Cendana Harum Demak</li>
-    </ul>
+    <div class="section">
+      <h3>Produk Unggulan</h3>
+      <p>Honda Beat, Honda Vario 160, Honda PCX 160, Honda Scoopy</p>
+    </div>
+
+    <div class="section">
+      <h3>Kenapa Pilih Saya?</h3>
+      <ul>
+        <li>Sales resmi & berpengalaman</li>
+        <li>Unit ready & banyak pilihan warna</li>
+        <li>Proses dibantu dari awal sampai selesai</li>
+        <li>Dealer: Cendana Harum Demak</li>
+      </ul>
+    </div>
 
     <a href="https://docs.google.com/forms/d/e/1FAIpQLScLROS_OvuCPpNDw9p68unwYhPBBmWgcH79Q7bTSoFmlNilbA/viewform" class="button">📝 Booking Motor Sekarang</a>
-    <a href="https://wa.me/62XXXXXXXXXX" class="button whatsapp">💬 WhatsApp MR. Cole</a>
+    <a href="https://wa.me/628xxxxxxxxxx" class="button whatsapp">💬 WhatsApp MR. Cole</a>
 
-    <h2>Lokasi Dealer</h2>
-    <p>Dealer Cendana Harum Demak</p>
-    <p><a href="#">Lihat di Google Maps</a></p>
+    <div class="section">
+      <h3>Lokasi Dealer</h3>
+      <p>Dealer Cendana Harum Demak</p>
+      <a href="https://www.google.com/maps/place/Dealer+Cendana+Harum+Demak/" class="button" target="_blank">📍 Lihat di Google Maps</a>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 MR. COLE - Dealer Honda Cendana Harum Demak
+    </div>
   </div>
 </body>
 </html>
